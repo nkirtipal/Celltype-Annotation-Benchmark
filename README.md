@@ -164,8 +164,9 @@ understanding how these four paradigms behave, not producing a novel result.
 
 The disagreement case study came out of the benchmarking and is included because it's
 interesting, but it's exploratory: one dataset, marker inference instead of sorted
-labels, and a disputed set defined by one of the methods being compared. Corrections
-welcome.
+labels, and a disputed set defined by one of the methods being compared. 
+
+Corrections welcome.
 
 ---
 
