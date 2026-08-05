@@ -153,7 +153,7 @@ overall agreement includes the CD14/FCGR3A monocyte boundary, where all three me
 differently (480/150, 392/229, 368/278) and no marker settles it — that one really is a
 continuum.
 
-**One dataset, one tissue.** No idea whether any of this generalises.
+**One dataset, one tissue.** All results come from PBMC3K. Whether the same patterns hold in other tissues or donors is untested.
 
 ---
 
