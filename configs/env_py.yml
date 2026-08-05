@@ -1,0 +1,21 @@
+name: celltype_bench_py
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - ipykernel
+  - scanpy
+  - anndata
+  - python-igraph
+  - leidenalg
+  - scikit-learn
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - seaborn
+  - h5py
+  - pyyaml
+  - pip

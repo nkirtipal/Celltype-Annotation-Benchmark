@@ -1,0 +1,22 @@
+{
+  "argv": [
+    "/mnt/nvme2tb/conda/envs/celltype_bench_r/bin/R",
+    "--slave",
+    "-e",
+    "IRkernel::main()",
+    "--args",
+    "{connection_file}"
+  ],
+  "display_name": "R (celltype_bench)",
+  "language": "R",
+  "env": {
+    "R_HOME": "/mnt/nvme2tb/conda/envs/celltype_bench_r/lib/R",
+    "R_LIBS_USER": "/mnt/nvme2tb/conda/envs/celltype_bench_r/lib/R/library",
+    "R_LIBS": "/mnt/nvme2tb/conda/envs/celltype_bench_r/lib/R/library",
+    "R_PROFILE_USER": "/dev/null",
+    "R_ENVIRON_USER": "/dev/null",
+    "LD_LIBRARY_PATH": "/mnt/nvme2tb/conda/envs/celltype_bench_r/lib",
+    "EXPERIMENT_HUB_CACHE": "/mnt/nvme2tb/celltype_bench/.cache/ExperimentHub",
+    "ANNOTATION_HUB_CACHE": "/mnt/nvme2tb/celltype_bench/.cache/AnnotationHub"
+  }
+}

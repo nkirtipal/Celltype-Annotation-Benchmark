@@ -1,0 +1,19 @@
+name: celltype_bench_r
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - r-base=4.3
+  - r-irkernel
+  - r-matrix
+  - r-jsonlite
+  - r-optparse
+  - r-data.table
+  - r-ggplot2
+  - r-biocmanager
+  - bioconductor-singler
+  - bioconductor-singlecellexperiment
+  - bioconductor-scuttle
+  - bioconductor-summarizedexperiment
+  - bioconductor-experimenthub
+  - bioconductor-annotationdbi

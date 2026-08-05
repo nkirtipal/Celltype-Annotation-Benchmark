@@ -1,0 +1,97 @@
+louvain:
+  CD4 T cells: CD4_T
+  CD8 T cells: CD8_T
+  NK cells: NK
+  B cells: B
+  CD14+ Monocytes: Mono_CD14
+  FCGR3A+ Monocytes: Mono_FCGR3A
+  Dendritic cells: DC
+  Megakaryocytes: Megakaryocyte
+
+celltypist_high:
+  T cells: unassigned
+  Monocytes: unassigned
+  ILC: NK
+  B cells: B
+  DC: DC
+  pDC: DC
+  Megakaryocytes/platelets: Megakaryocyte
+  Megakaryocyte precursor: Megakaryocyte
+  Macrophages: unassigned
+  Myelocytes: unassigned
+  Plasma cells: B
+  HSC/MPP: unassigned
+  MNP: unassigned
+  Double-positive thymocytes: unassigned
+
+celltypist_low:
+  Tcm/Naive helper T cells: CD4_T
+  Tem/Effector helper T cells: CD4_T
+  Regulatory T cells: CD4_T
+  Tcm/Naive cytotoxic T cells: CD8_T
+  Tem/Trm cytotoxic T cells: CD8_T
+  Tem/Temra cytotoxic T cells: CD8_T
+  Trm cytotoxic T cells: CD8_T
+  MAIT cells: CD8_T
+  CD16+ NK cells: NK
+  NK cells: NK
+  NKT cells: unassigned
+  B cells: B
+  Naive B cells: B
+  Classical monocytes: Mono_CD14
+  Non-classical monocytes: Mono_FCGR3A
+  DC: DC
+  DC2: DC
+  Megakaryocytes/platelets: Megakaryocyte
+  Macrophages: unassigned
+  Myelocytes: unassigned
+  CD16- NK cells: NK
+  Cycling T cells: unassigned
+  Type 1 helper T cells: CD4_T
+  Type 17 helper T cells: CD4_T
+  Follicular helper T cells: CD4_T
+  Treg(diff): CD4_T
+  T(agonist): unassigned
+  gamma-delta T cells: unassigned
+  CD8a/a: CD8_T
+  Double-positive thymocytes: unassigned
+  Memory B cells: B
+  Plasma cells: B
+  DC1: DC
+  DC3: DC
+  pDC: DC
+  Mono-mac: unassigned
+  Monocytes: unassigned
+  MNP: unassigned
+  MEMP: unassigned
+  Megakaryocyte precursor: Megakaryocyte
+  HSC/MPP: unassigned
+
+singler_fine:
+  T_cell:CD4+_central_memory: CD4_T
+  T_cell:CD4+_effector_memory: CD4_T
+  T_cell:CD4+_Naive: CD4_T
+  T_cell:CD4+: CD4_T
+  T_cell:CD8+: CD8_T
+  T_cell:CD8+_effector_memory: CD8_T
+  T_cell:CD8+_naive: CD8_T
+  T_cell:CD8+_Central_memory: CD8_T
+  T_cell:gamma-delta: unassigned
+  NK_cell: NK
+  NK_cell:CD56hiCD62L+: NK
+  NK_cell:IL2: NK
+  B_cell: B
+  B_cell:Naive: B
+  B_cell:Memory: B
+  B_cell:immature: B
+  B_cell:Plasma_cell: B
+  Pre-B_cell_CD34-: B
+  Monocyte:CD16-: Mono_CD14
+  Monocyte:CD16+: Mono_FCGR3A
+  Monocyte: unassigned
+  Platelets: Megakaryocyte
+  CMP: unassigned
+  MEP: unassigned
+  unassigned: unassigned
+  T_cell:CD8+_effector_memory_RA: CD8_T
+  Monocyte:leukotriene_D4: Mono_CD14
