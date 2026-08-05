@@ -148,7 +148,7 @@ sorted PBMCs, where the label comes from physically separating the cells.
 doesn't depend on any method is the CD8B gradient and the fact that reassignments go
 both ways.
 
-**CellTypist isn't vindicated generally.** It's right about these cells. Its lower
+**CellTypist isn't the winner here.** It's right about these cells. Its lower
 overall agreement includes the CD14/FCGR3A monocyte boundary, where all three methods cut
 differently (480/150, 392/229, 368/278) and no marker settles it — that one really is a
 continuum.
