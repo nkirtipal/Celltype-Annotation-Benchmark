@@ -109,7 +109,7 @@ implementation doesn't; five seeds for anything stochastic.
 
 ---
 
-## Running it
+## Running the pipeline
 
 ```bash
 conda env create -f configs/env_py.yml     # scanpy, celltypist, scvi-tools, torch (CPU)
