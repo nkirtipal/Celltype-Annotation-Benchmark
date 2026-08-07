@@ -8,9 +8,11 @@ them. They take quite different approaches correlation to a reference, a pretrai
 classifier, a supervised neural net, a semi-supervised autoencoder so running them
 side by side on the same data seemed like the best way to understand what each one is
 really doing.
+
 Running them side by side surfaced a group of 229 cells where the methods disagree
 sharply. CellTypist flagged them first, so I checked whether marker expression backed
 it up, and what the other three methods did with the same cells.
+
 That's the case study below.
 
 
