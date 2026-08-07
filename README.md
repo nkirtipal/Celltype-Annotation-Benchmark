@@ -165,11 +165,16 @@ continuum.
 **Possible training overlap.** CellTypist's `Immune_All_Low` model combines immune
 populations from 20 tissues across 18 studies. The metadata doesn't name them, so
 overlap with public 10x PBMC data can't be ruled out. It matters less than it might
-seem — the model's 98 cell types span tissue-resident populations absent from blood,
+seem the model's 98 cell types span tissue-resident populations absent from blood,
 and any overlapping study would have contributed its own labels rather than PBMC3K's.
 
 **One dataset, one tissue.** All results come from PBMC3K. Whether the same patterns
 hold in other tissues or donors is untested.
+
+**Architecture isn't controlled for.** ACTINN and scANVI agree closely, and I've read
+that as both learning from the same labels. But they're also both neural networks using
+the same genes, while SingleR works differently. So I can't separate the effect of the
+training labels from the effect of the model architecture.
 
 ---
 
