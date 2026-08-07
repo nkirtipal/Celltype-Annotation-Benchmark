@@ -1,6 +1,6 @@
 # Cell Type Annotation in scRNA-seq: A Practical Comparison of Modern Methods
 
-> Learning project. Exploratory findings, not validated results.
+Learning project. Exploratory benchmark. The case study findings are not validated biological results.
 
 Benchmarking **SingleR**, **CellTypist**, **ACTINN**, and **scANVI** on PBMC3K through
 one reproducible pipeline.
