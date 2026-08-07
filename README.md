@@ -175,7 +175,6 @@ hold in other tissues or donors is untested.
 that as both learning from the same labels. But they're also both neural networks using
 the same genes, while SingleR works differently. So I can't separate the effect of the
 training labels from the effect of the model architecture.
-
 ---
 
 ## Learning Notes
