@@ -173,16 +173,17 @@ hold in other tissues or donors is untested.
 
 ---
 
-## Scope
+## Learning Notes
 
-A learning project. The point was building a clean reproducible pipeline and
-understanding how these four paradigms behave, not producing a novel result.
+The point was to build a clean, reproducible pipeline and understand how these four
+annotation paradigms behave, not to produce a novel result.
 
-The disagreement case study came out of the benchmarking and is included because it's
-interesting, but it's exploratory: one dataset, marker inference instead of sorted
-labels, and a disputed set defined by one of the methods being compared. 
+The 229 disputed cells emerged during benchmarking rather than being something I set out
+to look for. I've included the analysis because it's interesting, but it rests on one
+dataset, on marker expression rather than sorted labels, and on a cell set defined by
+one of the methods being compared.
 
-Corrections welcome.
+**Corrections welcome.**
 
 ---
 
