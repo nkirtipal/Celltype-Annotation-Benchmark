@@ -153,14 +153,23 @@ sorted PBMCs, where the label comes from physically separating the cells.
 
 **"Disputed" is defined by CellTypist**, so its 0% is partly circular. The evidence that
 doesn't depend on any method is the CD8B gradient and the fact that reassignments go
-both ways.
+both ways. A cleaner design would define the disputed set from marker expression alone —
+reference CD4 cells above a CD8B threshold — before running any method, then check what
+all four do with them.
 
 **CellTypist isn't the winner here.** It's right about these cells. Its lower
 overall agreement includes the CD14/FCGR3A monocyte boundary, where all three methods cut
 differently (480/150, 392/229, 368/278) and no marker settles it — that one really is a
 continuum.
 
-**One dataset, one tissue.** All results come from PBMC3K. Whether the same patterns hold in other tissues or donors is untested.
+**Possible training overlap.** CellTypist's `Immune_All_Low` model combines immune
+populations from 20 tissues across 18 studies. The metadata doesn't name them, so
+overlap with public 10x PBMC data can't be ruled out. It matters less than it might
+seem — the model's 98 cell types span tissue-resident populations absent from blood,
+and any overlapping study would have contributed its own labels rather than PBMC3K's.
+
+**One dataset, one tissue.** All results come from PBMC3K. Whether the same patterns
+hold in other tissues or donors is untested.
 
 ---
 
