@@ -130,7 +130,7 @@ for s in 0 1 2 3 4; do python src/methods/run_actinn.py --seed $s; done
 for s in 0 1 2 3 4; do python src/methods/run_scanvi.py  --seed $s; done
 ```
 
-CPU only, no GPU needed.
+***CPU only, no GPU needed.***
 
 ---
 
