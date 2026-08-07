@@ -1,0 +1,6 @@
+method,accuracy,unassigned_pct,disputed_called_CD4_pct
+CellTypist (High),0.917,78.09,0.0
+CellTypist (Low),0.8263,1.59,0.0
+SingleR (HPCA fine),0.8201,1.4,62.0
+ACTINN,0.9086,,96.8
+scANVI,0.9273,,96.2
