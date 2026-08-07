@@ -64,8 +64,6 @@ These cells carry more CD8B than the cells everything agrees are CD8. CD8A looks
 same. And it goes both ways — the cells CellTypist moves *out* of CD8 have low CD8B
 (0.543), so it isn't just shifting the boundary in one direction.
 
-![gradient](results/figures/cd8b_gradient_bidirectional.png)
-
 The four methods split cleanly:
 
 | Method | Called CD4 |
