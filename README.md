@@ -16,7 +16,7 @@ really doing.
 | ACTINN | Supervised neural network | training split | Python |
 | scANVI | Semi-supervised VAE | labelled + unlabelled | Python |
 
-![summary](results/figures/summary_error_inheritance.png)
+![summary](results/figures/summary_label_inheritance.png)
 
 ---
 
@@ -26,7 +26,7 @@ really doing.
 |---|---:|---:|---|
 | CellTypist (High) | 0.917* | 78.1% | can't split CD4/CD8; macro-F1 0.540 |
 | CellTypist (Low) | 0.826* | 1.6% | macro-F1 0.814 |
-| SingleR (HPCA fine) | — | 1.4% | 32 of 37 DCs called monocytes |
+| SingleR (HPCA fine) | 0.820* | 1.4% | 32 of 37 DCs called monocytes |
 | ACTINN | 0.909 ± 0.017 | — | 5 seeds, 0.883–0.928 |
 | scANVI | 0.927 ± 0.005 | — | 5 seeds |
 
